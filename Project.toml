@@ -1,9 +1,19 @@
 name = "CorpusGraph"
 uuid = "28b05084-1b2d-43f8-8003-02fe2a0fc65b"
-authors = ["nondairyneutrino <chapmann19@gmail.com> and contributors"]
 version = "1.0.0-DEV"
+authors = ["nondairyneutrino <chapmann19@gmail.com> and contributors"]
+
+[deps]
+GraphIO = "aa1b3936-2fda-51b9-ab35-c553d3a640a2"
+GraphPlot = "a2cc645c-3eea-5389-862e-a155d0052231"
+Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
+MetaGraphsNext = "fa8bd995-216d-47f1-8a91-f3b68fbeb377"
 
 [compat]
+GraphIO = "0.7.1"
+GraphPlot = "0.6.2"
+Graphs = "1.13.1"
+MetaGraphsNext = "0.7.5"
 julia = "1.12"
 
 [extras]
